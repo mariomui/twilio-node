@@ -102,4 +102,4 @@ initializer.getExpectedTwilioSignature = webhooks.getExpectedTwilioSignature;
 initializer.webhook = webhooks.webhook;
 
 // Public module interface is a function, which passes through to RestClient constructor
-export = initializer;
+export default initializer;

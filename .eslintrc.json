@@ -3,6 +3,17 @@
     "es6": true
   },
   "rules": {
+    "no-restricted-imports": [
+      "ERROR",
+      {
+        "name": "lodash",
+        "message": "Please use our ES6 module lodash import: ==> import { isNil } from '@lodash'"
+      },
+      {
+        "name": "lodash/chain",
+        "message": "This function is not exported as an ES6 module, please use an alternative"
+      }
+    ],
     "space-before-function-paren": [
       2,
       {
